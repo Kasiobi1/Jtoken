@@ -32,9 +32,8 @@ app.use(express.static("public"))
             if(err) return res.sendStatus(403)  // Invalid token, expired vtoken access
         
             req.user = user;
-           // next() // Call next only after token is verified successfully
+            next() // Call next only after token is verified successfully
         })
-        next()
     }
 
     app.get("/posts", authenticateToken, (req, res) => {

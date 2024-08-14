@@ -1,5 +1,5 @@
 GET http://localhost:8000/posts
-Authorization: Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNzb3AiLCJpYXQiOjE3MjM2MzU1NzgsImV4cCI6MTcyMzYzNTU5M30.5NTrEwLm6bnBu1XWRkrbmDzzrQ6UiUUonNeEcxccUfg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNzb3AiLCJpYXQiOjE3MjM2MzU2ODQsImV4cCI6MTcyMzYzNTY5OX0.mrv_afD0z85tzE_DuUu0yaNeBq6SoiugscOubp761g4
 
 ###
 
